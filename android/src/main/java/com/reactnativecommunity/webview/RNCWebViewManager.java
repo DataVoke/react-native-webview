@@ -253,6 +253,7 @@ public class RNCWebViewManager extends SimpleViewManager<WebView> {
       }
     });
 
+    webView.setFocusable(false);
     return webView;
   }
 
